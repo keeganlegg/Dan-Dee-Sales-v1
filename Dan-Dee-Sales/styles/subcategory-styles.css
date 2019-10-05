@@ -1,0 +1,1558 @@
+/* Adjusts the styles for main section.
+    Individual ads can be customized below. */
+.sub_styles {  /* PUT ON EACH SUB CATEGORY PAGE */
+    grid-area: main_section;
+    display: grid;
+    background-color: beige;
+    width: 90%;
+    border-radius: 20px;
+    border: 2px solid black;
+    grid-column-gap: 2%;
+    justify-self: center;
+    justify-content: space-around;
+    padding: .5em 2% 2em 2%;
+    grid-row-gap: 1.5em;
+}
+/* Style for sub category ads */
+.product_brand { 
+    grid-area: product_brand;
+    text-align: center;
+    font-size: 125%; 
+}
+.product_title {
+    grid-area: product_title;
+    text-align: center;
+    padding-bottom: .7em;
+    font-size: 155%;
+}
+
+.product_image { 
+    grid-area: product_image;
+    max-width: 100%;
+    justify-self: center;
+    align-self: center;
+    /* width: 237px; */
+    max-height: 250px;
+}
+
+.product_description {
+    grid-area: product_description;
+    font-weight: bold;
+    text-align: center;
+    align-self: flex-end;
+    margin-top: .5em;
+    padding: 0 2% 1em 2%;
+}
+
+.msg, .msg2, .msg3 {
+    font-size: 250%;
+    text-align: center;
+}
+
+.msgbrdr1 { grid-area: msgbrdr1; }
+.msgbrdr2 { grid-area: msgbrdr2; }
+.msgbrdr3 { grid-area: msgbrdr3; }
+
+.msgbrdr1, .msgbrdr2, .msgbrdr3 { 
+    width: 50%; 
+    justify-self: center; 
+    border-bottom: 2px solid black;
+}
+
+.msg { grid-area: msg; padding-top: .6em; }
+.msg2 { grid-area: msg2; padding-top: .6em; }
+.msg3 { grid-area: msg3; padding-top: .6em; }
+
+.list_desc { 
+    grid-area: list_desc; 
+    margin-top: .7em;
+    line-height: 1.2;
+    font-size: 102%;
+}
+.list_desc li { padding-bottom: .2em; }
+.list_desc ul { 
+    padding-left: 1.2em;
+}
+.list_desc p+ul { padding-left: 2em; }
+.list_desc p { padding-bottom: .4em; }
+
+.calk_boots_warranty { font-size: 80%; padding-top: .7em; }
+
+.reloading_type { 
+    grid-area: reloading_type; 
+    text-align: center;
+    /*color: red; */
+    border: 1px solid #d2b48c;
+    background-color: #d2b48c;
+    padding: .3em 1.2em .3em 1.2em;
+    border-radius: 30px;
+    align-self: flex-start;
+    justify-self: center;
+    font-size: 110%;
+}
+.rope_colors { 
+    grid-area: rope_colors;
+    justify-self: center;
+}
+.ad_border_line { 
+    grid-area: border_line;
+    width: 60%;
+    border-top: 2px solid black; 
+    justify-self: center;
+}
+/* Border between ads */
+.brdr1 { grid-area: brdr1; } .brdr2 { grid-area: brdr2; }
+.brdr3 { grid-area: brdr3; } .brdr4 { grid-area: brdr4; }
+.brdr5 { grid-area: brdr5; } .brdr6 { grid-area: brdr6; }
+.brdr7 { grid-area: brdr7; } .brdr8 { grid-area: brdr8; }
+.brdr9 { grid-area: brdr9; } .brdr10 { grid-area: brdr10; }
+.brdr11 { grid-area: brdr11; } .brdr12 { grid-area: brdr12; }
+.brdr13 { grid-area: brdr13; } .brdr14 { grid-area: brdr14; }
+.brdr15 { grid-area: brdr15; } .brdr16 { grid-area: brdr16; }
+.brdr17 { grid-area: brdr17; } .brdr18 { grid-area: brdr18; }
+.brdr19 { grid-area: brdr19; } .brdr20 { grid-area: brdr20; }
+.brdr21 { grid-area: brdr21; } .brdr22 { grid-area: brdr22; }
+.brdr23 { grid-area: brdr23; } .brdr24 { grid-area: brdr24; }
+.brdr25 { grid-area: brdr25; } .brdr26 { grid-area: brdr26; }
+.brdr1, .brdr2, .brdr3, .brdr4, .brdr5, .brdr6,
+.brdr7, .brdr8, .brdr9, .brdr10, .brdr11, .brdr12,
+.brdr13, .brdr14, .brdr15, .brdr16, .brdr17,
+.brdr18, .brdr18, .brdr19, .brdr20, .brdr21,
+.brdr22, .brdr23, .brdr24, .brdr25, .brdr26 {
+    border-bottom: 2px solid black; 
+    width: 96%; 
+    justify-self: center;
+}
+.mobile_border_2row { display: none; }
+.mobile_border_1row { display: none; }
+
+/* SPORTING ADS */
+
+/* Reloading Powder */
+#sporting_reloading_ad1 { grid-area: ad1; } #sporting_reloading_ad2 { grid-area: ad2; }
+#sporting_reloading_ad3 { grid-area: ad3; } #sporting_reloading_ad4 { grid-area: ad4; }
+#sporting_reloading_ad5 { grid-area: ad5; } #sporting_reloading_ad6 { grid-area: ad6; }
+#sporting_reloading_ad7 { grid-area: ad7; } #sporting_reloading_ad8 { grid-area: ad8; }
+#sporting_reloading_ad9 { grid-area: ad9; } #sporting_reloading_ad10 { grid-area: ad10; }
+#sporting_reloading_ad11 { grid-area: ad11; } #sporting_reloading_ad12 { grid-area: ad12; }
+#sporting_reloading_ad13 { grid-area: ad13; } #sporting_reloading_ad14 { grid-area: ad14; }
+#sporting_reloading_ad15 { grid-area: ad15; } #sporting_reloading_ad16 { grid-area: ad16; }
+#sporting_reloading_ad17 { grid-area: ad17; } #sporting_reloading_ad18 { grid-area: ad18; }
+#sporting_reloading_ad19 { grid-area: ad19; } #sporting_reloading_ad20 { grid-area: ad20; }
+#sporting_reloading_ad21 { grid-area: ad21; } #sporting_reloading_ad22 { grid-area: ad22; }
+#sporting_reloading_ad23 { grid-area: ad23; } #sporting_reloading_ad24 { grid-area: ad24; }
+#sporting_reloading_ad1, #sporting_reloading_ad2, #sporting_reloading_ad3, #sporting_reloading_ad4,
+#sporting_reloading_ad5, #sporting_reloading_ad6, #sporting_reloading_ad7, #sporting_reloading_ad8,
+#sporting_reloading_ad9, #sporting_reloading_ad10, #sporting_reloading_ad11, #sporting_reloading_ad12,
+#sporting_reloading_ad13, #sporting_reloading_ad14, #sporting_reloading_ad15, #sporting_reloading_ad16,
+#sporting_reloading_ad17, #sporting_reloading_ad18, #sporting_reloading_ad19, #sporting_reloading_ad20,
+#sporting_reloading_ad21, #sporting_reloading_ad22, #sporting_reloading_ad23, #sporting_reloading_ad24 
+{
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "reloading_type"
+        "product_image"
+        "product_description";
+}
+#sporting_reloading_powder {
+    grid-template: repeat(15, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6"
+        "brdr2 brdr2 brdr2"
+        "ad7 ad8 ad9"
+        "brdr3 brdr3 brdr3"
+        "ad10 ad11 ad12"
+        "brdr4 brdr4 brdr4"
+        "ad13 ad14 ad15"
+        "brdr5 brdr5 brdr5"
+        "ad16 ad17 ad18"
+        "brdr6 brdr6 brdr6"
+        "ad19 ad20 ad21"
+        "brdr7 brdr7 brdr7"
+        "ad22 ad23 ad24";
+}
+
+/* Optics */
+#sporting_optics_ad1 { grid-area: ad1; } #sporting_optics_ad2 { grid-area: ad2; }
+#sporting_optics_ad3 { grid-area: ad3; } #sporting_optics_ad4 { grid-area: ad4; }
+#sporting_optics_ad5 { grid-area: ad5; } #sporting_optics_ad6 { grid-area: ad6; }
+#sporting_optics_ad7 { grid-area: ad7; } #sporting_optics_ad8 { grid-area: ad8; }
+#sporting_optics_ad9 { grid-area: ad9; } #sporting_optics_ad10 { grid-area: ad10; }
+#sporting_optics_ad11 { grid-area: ad11; } #sporting_optics_ad12 { grid-area: ad12; }
+#sporting_optics_ad13 { grid-area: ad13; } #sporting_optics_ad14 { grid-area: ad14; }
+#sporting_optics_ad15 { grid-area: ad15; } #sporting_optics_ad16 { grid-area: ad16; }
+#sporting_optics_ad17 { grid-area: ad17; } #sporting_optics_ad18 { grid-area: ad18; }
+#sporting_optics_ad19 { grid-area: ad19; } #sporting_optics_ad20 { grid-area: ad20; }
+#sporting_optics_ad21 { grid-area: ad21; } #sporting_optics_ad22 { grid-area: ad22; }
+#sporting_optics_ad23 { grid-area: ad23; } #sporting_optics_ad24 { grid-area: ad24; }
+#sporting_optics_ad25 { grid-area: ad25; } #sporting_optics_ad26 { grid-area: ad26; }
+#sporting_optics_ad27 { grid-area: ad27; }
+#sporting_optics_ad1, #sporting_optics_ad2, #sporting_optics_ad3, #sporting_optics_ad4,
+#sporting_optics_ad5, #sporting_optics_ad6, #sporting_optics_ad7, #sporting_optics_ad8,
+#sporting_optics_ad9, #sporting_optics_ad10, #sporting_optics_ad11, #sporting_optics_ad12,
+#sporting_optics_ad13, #sporting_optics_ad14, #sporting_optics_ad15, #sporting_optics_ad16,
+#sporting_optics_ad17, #sporting_optics_ad18, #sporting_optics_ad19, #sporting_optics_ad20,
+#sporting_optics_ad21, #sporting_optics_ad22, #sporting_optics_ad23, #sporting_optics_ad24,
+#sporting_optics_ad25, #sporting_optics_ad26, #sporting_optics_ad27 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+
+#sporting_optics {
+    grid-template: repeat(19, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "msg msg msg"
+        "msgbrdr1 msgbrdr1 msgbrdr1"
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6"
+        "brdr2 brdr2 brdr2"
+        "ad7 ad8 ad9"
+        "brdr3 brdr3 brdr3"
+        "ad10 ad11 ad12"
+        "brdr4 brdr4 brdr4"
+        "ad13 ad14 ad15"
+        "brdr5 brdr5 brdr5"
+        "ad16 ad17 ad18"
+        "brdr6 brdr6 brdr6"
+        "ad19 ad20 ad21"
+        "brdr7 brdr7 brdr7"
+        "ad22 ad23 ad24"
+        "brdr8 brdr8 brdr8"
+        "ad25 ad26 ad27";
+}
+
+/* Gold Panning */
+#sporting_goldpanning_ad1 { grid-area: ad1; } #sporting_goldpanning_ad2 { grid-area: ad2; }
+#sporting_goldpanning_ad3 { grid-area: ad3; } #sporting_goldpanning_ad4 { grid-area: ad4; }
+#sporting_goldpanning_ad5 { grid-area: ad5; } #sporting_goldpanning_ad6 { grid-area: ad6; }
+#sporting_goldpanning_ad7 { grid-area: ad7; } #sporting_goldpanning_ad8 { grid-area: ad8; }
+#sporting_goldpanning_ad9 { grid-area: ad9; } #sporting_goldpanning_ad10 { grid-area: ad10; }
+#sporting_goldpanning_ad11 { grid-area: ad11; } #sporting_goldpanning_ad12 { grid-area: ad12; }
+#sporting_goldpanning_ad13 { grid-area: ad13; } #sporting_goldpanning_ad14 { grid-area: ad14; }
+#sporting_goldpanning_ad15 { grid-area: ad15; } #sporting_goldpanning_ad16 { grid-area: ad16; }
+#sporting_goldpanning_ad17 { grid-area: ad17; } #sporting_goldpanning_ad18 { grid-area: ad18; }
+#sporting_goldpanning_ad19 { grid-area: ad19; } #sporting_goldpanning_ad20 { grid-area: ad20; }
+#sporting_goldpanning_ad21 { grid-area: ad21; } #sporting_goldpanning_ad22 { grid-area: ad22; }
+#sporting_goldpanning_ad23 { grid-area: ad23; } #sporting_goldpanning_ad24 { grid-area: ad24; }
+#sporting_goldpanning_ad1, #sporting_goldpanning_ad2, #sporting_goldpanning_ad3, #sporting_goldpanning_ad4,
+#sporting_goldpanning_ad5, #sporting_goldpanning_ad6, #sporting_goldpanning_ad7, #sporting_goldpanning_ad8,
+#sporting_goldpanning_ad9, #sporting_goldpanning_ad10, #sporting_goldpanning_ad11, #sporting_goldpanning_ad12,
+#sporting_goldpanning_ad13, #sporting_goldpanning_ad14, #sporting_goldpanning_ad15, #sporting_goldpanning_ad16,
+#sporting_goldpanning_ad17, #sporting_goldpanning_ad18, #sporting_goldpanning_ad19, #sporting_goldpanning_ad20,
+#sporting_goldpanning_ad21, #sporting_goldpanning_ad22, #sporting_goldpanning_ad23 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(3, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "product_description";
+}
+#sporting_goldpanning {
+    grid-template: repeat(15, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6"
+        "brdr2 brdr2 brdr2"
+        "ad7 ad8 ad9"
+        "brdr3 brdr3 brdr3"
+        "ad10 ad11 ad12"
+        "brdr4 brdr4 brdr4"
+        "ad13 ad14 ad15"
+        "brdr5 brdr5 brdr5"
+        "ad16 ad17 ad18"
+        "brdr6 brdr6 brdr6"
+        "ad19 ad20 ad21"
+        "brdr7 brdr7 brdr7"
+        "ad22 ad23 ad24";
+}
+
+/* Knives - Tools */
+#sporting_knivestools_ad1 { grid-area: ad1; } #sporting_knivestools_ad2 { grid-area: ad2; }
+#sporting_knivestools_ad3 { grid-area: ad3; } #sporting_knivestools_ad4 { grid-area: ad4; }
+#sporting_knivestools_ad5 { grid-area: ad5; } #sporting_knivestools_ad6 { grid-area: ad6; }
+#sporting_knivestools_ad7 { grid-area: ad7; } #sporting_knivestools_ad8 { grid-area: ad8; }
+#sporting_knivestools_ad9 { grid-area: ad9; } #sporting_knivestools_ad10 { grid-area: ad10; }
+#sporting_knivestools_ad11 { grid-area: ad11; } #sporting_knivestools_ad12 { grid-area: ad12; }
+#sporting_knivestools_ad13 { grid-area: ad13; } #sporting_knivestools_ad14 { grid-area: ad14; }
+#sporting_knivestools_ad15 { grid-area: ad15; } #sporting_knivestools_ad16 { grid-area: ad16; }
+#sporting_knivestools_ad17 { grid-area: ad17; } #sporting_knivestools_ad18 { grid-area: ad18; }
+#sporting_knivestools_ad19 { grid-area: ad19; } #sporting_knivestools_ad20 { grid-area: ad20; }
+#sporting_knivestools_ad21 { grid-area: ad21; } #sporting_knivestools_ad22 { grid-area: ad22; }
+#sporting_knivestools_ad23 { grid-area: ad23; } #sporting_knivestools_ad24 { grid-area: ad24; }
+#sporting_knivestools_ad25 { grid-area: ad25; } #sporting_knivestools_ad26 { grid-area: ad26; }
+#sporting_knivestools_ad1, #sporting_knivestools_ad2, #sporting_knivestools_ad3, #sporting_knivestools_ad4,
+#sporting_knivestools_ad5, #sporting_knivestools_ad6, #sporting_knivestools_ad7, #sporting_knivestools_ad8,
+#sporting_knivestools_ad9, #sporting_knivestools_ad10, #sporting_knivestools_ad11, #sporting_knivestools_ad12,
+#sporting_knivestools_ad13, #sporting_knivestools_ad14, #sporting_knivestools_ad15, #sporting_knivestools_ad16,
+#sporting_knivestools_ad17, #sporting_knivestools_ad18, #sporting_knivestools_ad19, #sporting_knivestools_ad20,
+#sporting_knivestools_ad21, #sporting_knivestools_ad22, #sporting_knivestools_ad23, #sporting_knivestools_ad24,
+#sporting_knivestools_ad25, #sporting_knivestools_ad26 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(5, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "tooltip"
+        "ad_price_properties";
+}
+
+#sporting_knivestools {
+    grid-template: repeat(15, auto) / repeat(3, 1fr);
+    grid-row-gap: 2.2em;
+    grid-template-areas:
+        "msg msg msg"
+        "msgbrdr1 msgbrdr1 msgbrdr1"
+        "ad1 ad2 ad3"
+        "ad4 ad5 ad6"
+        "ad7 ad8 ad9"
+        "ad10 ad11 ad12"
+        "msg2 msg2 msg2"
+        "msgbrdr2 msgbrdr2 msgbrdr2"
+        "ad13 ad14 ad15"
+        "ad16 ad17 ad18"
+        "ad19 ad20 ad21"
+        "msg3 msg3 msg3"
+        "msgbrdr3 msgbrdr3 msgbrdr3"
+        "ad22 ad23 ad24"
+        "ad25 ad26 ad27";
+}
+/* FLASHLIGHTS */
+#sporting_flashlights_ad1 { grid-area: ad1; }
+#sporting_flashlights_ad2 { grid-area: ad2; }
+#sporting_flashlights_ad3 { grid-area: ad3; }
+#sporting_flashlights_ad4 { grid-area: ad4; }
+#sporting_flashlights_ad5 { grid-area: ad5; }
+#sporting_flashlights_ad1, #sporting_flashlights_ad2, #sporting_flashlights_ad3, #sporting_flashlights_ad4, 
+#sporting_flashlights_ad5 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(3, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "product_description";
+}
+#sporting_flashlights {
+    grid-template: repeat(3, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6";
+}
+/* Black Powder */
+#sporting_blackpowder_ad1 { grid-area: ad1; }
+#sporting_blackpowder_ad2 { grid-area: ad2; }
+#sporting_blackpowder_ad3 { grid-area: ad3; }
+#sporting_blackpowder_ad4 { grid-area: ad4; }
+#sporting_blackpowder_ad5 { grid-area: ad5; }
+#sporting_blackpowder_ad1, #sporting_blackpowder_ad2, #sporting_blackpowder_ad3, #sporting_blackpowder_ad4, 
+#sporting_blackpowder_ad5 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(3, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "product_description";
+}
+#sporting_blackpowder {
+    grid-template: repeat(3, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6";
+}
+
+/* CAMPING */
+
+/* Rope - Cord */
+#camping_ropecord_ad1 { grid-area: ad1; } #camping_ropecord_ad2 { grid-area: ad2; }
+#camping_ropecord_ad3 { grid-area: ad3; } #camping_ropecord_ad4 { grid-area: ad4; }
+#camping_ropecord_ad5 { grid-area: ad5; } #camping_ropecord_ad6 { grid-area: ad6; }
+#camping_ropecord_ad7 { grid-area: ad7; } #camping_ropecord_ad8 { grid-area: ad8; }
+#camping_ropecord_ad9 { grid-area: ad9; } #camping_ropecord_ad10 { grid-area: ad10; }
+#camping_ropecord_ad11 { grid-area: ad11; } #camping_ropecord_ad12 { grid-area: ad12; }
+#camping_ropecord_ad1, #camping_ropecord_ad2, #camping_ropecord_ad3, #camping_ropecord_ad4,
+#camping_ropecord_ad5, #camping_ropecord_ad6, #camping_ropecord_ad7, #camping_ropecord_ad8,
+#camping_ropecord_ad9, #camping_ropecord_ad10, #camping_ropecord_ad11, #camping_ropecord_ad12 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+#camping_ropecord {
+    grid-template: repeat(7, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6"
+        "brdr2 brdr2 brdr2"
+        "ad7 ad8 ad9"
+        "brdr3 brdr3 brdr3"
+        "ad10 ad11 ad12";
+}
+
+/* Tarps */
+#camping_tarps_ad1 { grid-area: ad1; }
+#camping_tarps_ad1 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(3, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "product_description";
+}
+#camping_tarps {
+    grid-template: repeat(1, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3";
+}
+
+/* Cast Iron */
+#camping_castiron_ad1 { grid-area: ad1; }
+#camping_castiron_ad2 { grid-area: ad2; }
+#camping_castiron_ad3 { grid-area: ad3; }
+#camping_castiron_ad4 { grid-area: ad4; }
+#camping_castiron_ad5 { grid-area: ad5; }
+#camping_castiron_ad6 { grid-area: ad6; }
+#camping_castiron_ad7 { grid-area: ad7; }
+#camping_castiron_ad8 { grid-area: ad8; }
+#camping_castiron_ad9 { grid-area: ad9; }
+#camping_castiron_ad10 { grid-area: ad10; }
+#camping_castiron_ad11 { grid-area: ad11; }
+#camping_castiron_ad12 { grid-area: ad12; }
+#camping_castiron_ad13 { grid-area: ad13; }
+#camping_castiron_ad14 { grid-area: ad14; }
+#camping_castiron_ad15 { grid-area: ad15; }
+#camping_castiron_ad16 { grid-area: ad16; }
+#camping_castiron_ad17 { grid-area: ad17; }
+#camping_castiron_ad1, #camping_castiron_ad2, #camping_castiron_ad3,
+#camping_castiron_ad4, #camping_castiron_ad5, #camping_castiron_ad6,
+#camping_castiron_ad7, #camping_castiron_ad8, #camping_castiron_ad9,
+#camping_castiron_ad10, #camping_castiron_ad11, #camping_castiron_ad12,
+#camping_castiron_ad13, #camping_castiron_ad14, #camping_castiron_ad15,
+#camping_castiron_ad16, #camping_castiron_ad17 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(3, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "product_description";
+}
+#camping_castiron {
+    grid-template: repeat(11, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6"
+        "brdr2 brdr2 brdr2"
+        "ad7 ad8 ad9"
+        "brdr3 brdr3 brdr3"
+        "ad10 ad11 ad12"
+        "brdr4 brdr4 brdr4"
+        "ad13 ad14 ad15"
+        "brdr5 brdr5 brdr5"
+        "ad16 ad17 ad18";
+}
+
+/* Meals Freeze Dried */
+#camping_mealsfreezedried_ad1 { grid-area: ad1; } #camping_mealsfreezedried_ad2 { grid-area: ad2; }
+#camping_mealsfreezedried_ad3 { grid-area: ad3; } #camping_mealsfreezedried_ad4 { grid-area: ad4; }
+#camping_mealsfreezedried_ad5 { grid-area: ad5; } #camping_mealsfreezedried_ad6 { grid-area: ad6; }
+#camping_mealsfreezedried_ad7 { grid-area: ad7; } #camping_mealsfreezedried_ad8 { grid-area: ad8; }
+#camping_mealsfreezedried_ad9 { grid-area: ad9; } #camping_mealsfreezedried_ad10 { grid-area: ad10; }
+#camping_mealsfreezedried_ad11 { grid-area: ad11; } #camping_mealsfreezedried_ad12 { grid-area: ad12; }
+#camping_mealsfreezedried_ad13 { grid-area: ad13; } #camping_mealsfreezedried_ad14 { grid-area: ad14; }
+#camping_mealsfreezedried_ad15 { grid-area: ad15; } #camping_mealsfreezedried_ad16 { grid-area: ad16; }
+#camping_mealsfreezedried_ad1, #camping_mealsfreezedried_ad2, #camping_mealsfreezedried_ad3, 
+#camping_mealsfreezedried_ad4, #camping_mealsfreezedried_ad5, #camping_mealsfreezedried_ad6,
+#camping_mealsfreezedried_ad7, #camping_mealsfreezedried_ad8, #camping_mealsfreezedried_ad9,
+#camping_mealsfreezedried_ad10, #camping_mealsfreezedried_ad11, #camping_mealsfreezedried_ad12,
+#camping_mealsfreezedried_ad13, #camping_mealsfreezedried_ad14, #camping_mealsfreezedried_ad15,
+#camping_mealsfreezedried_ad16 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(3, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "product_description";
+}
+
+#camping_mealsfreezedried {
+    grid-template: repeat(12, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6"
+        "brdr2 brdr2 brdr2"
+        "ad7 ad8 ad9"
+        "brdr3 brdr3 brdr3"
+        "ad10 ad11 ad12"
+        "brdr4 brdr4 brdr4"
+        "ad13 ad14 ."
+        "brdr5 brdr5 brdr5"
+        "msg msg msg"
+        "ad15 ad16 ad17";
+}
+
+/* Camp Wood */
+#camping_campwood_ad1 { grid-area: ad1; }
+#camping_campwood_ad2 { grid-area: ad2; }
+#camping_campwood_ad3 { grid-area: ad3; }
+#camping_campwood_ad4 { grid-area: ad4; }
+#camping_campwood_ad1, #camping_campwood_ad2, #camping_campwood_ad3 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+#camping_campwood_ad4 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(3, auto) / auto auto;
+    grid-template-areas:
+        "product_title product_title"
+        "product_image product_image"
+        "product_description ad_price_properties";
+}
+#camping_campwood {
+    grid-template: repeat(3, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6";
+}
+#camping_campwood li { padding-bottom: .1em; }
+#camping_campwood_ad1 h4:first-child, 
+#camping_campwood_ad2 h4:first-child { padding-bottom: .6em; }
+#camping_campwood_ad4 img { padding-bottom: .7em; }
+
+/* Tents-Sleeping Bags */
+#camping_tentssleepingbags_ad1 { grid-area: ad1; }
+#camping_tentssleepingbags_ad2 { grid-area: ad2; }
+#camping_tentssleepingbags_ad3 { grid-area: ad3; }
+#camping_tentssleepingbags_ad4 { grid-area: ad4; }
+#camping_tentssleepingbags_ad5 { grid-area: ad5; }
+#camping_tentssleepingbags_ad1, #camping_tentssleepingbags_ad2, #camping_tentssleepingbags_ad3,
+#camping_tentssleepingbags_ad4, #camping_tentssleepingbags_ad5 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(3, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "product_description";
+}
+#camping_tentssleepingbags {
+    grid-template: repeat(3, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6";
+}
+
+/* FOOTWEAR */
+
+/* Calk Boots */
+#footwear_calkboots_ad1 { grid-area: ad1; } #footwear_calkboots_ad2 { grid-area: ad2; }
+#footwear_calkboots_ad3 { grid-area: ad3; } #footwear_calkboots_ad4 { grid-area: ad4; }
+#footwear_calkboots_ad5 { grid-area: ad5; }
+#footwear_calkboots_ad1, #footwear_calkboots_ad2, #footwear_calkboots_ad3,
+#footwear_calkboots_ad4, #footwear_calkboots_ad5 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(5, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties"
+        "calk_boots_warranty";
+}
+#footwear_calkboots {
+    grid-template: repeat(3, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6";
+}
+
+/* Athletic */
+#footwear_athletic_ad1 { grid-area: ad1; }
+#footwear_athletic_ad2 { grid-area: ad2; }
+#footwear_athletic_ad1, #footwear_athletic_ad2, #footwear_athletic_ad3,
+#footwear_athletic_ad4 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+
+
+#footwear_athletic {
+    grid-template: repeat(1, auto) / repeat(3, 1fr); 
+    grid-template-areas:
+        "ad1 ad2 ad3";
+}
+
+/* Boots */
+#footwear_boots_ad1 { grid-area: ad1; } #footwear_boots_ad2 { grid-area: ad2; }
+#footwear_boots_ad3 { grid-area: ad3; } #footwear_boots_ad4 { grid-area: ad4; }
+#footwear_boots_ad5 { grid-area: ad5; } #footwear_boots_ad6 { grid-area: ad6; }
+#footwear_boots_ad7 { grid-area: ad7; } #footwear_boots_ad8 { grid-area: ad8; }
+#footwear_boots_ad9 { grid-area: ad9; } #footwear_boots_ad10 { grid-area: ad10; }
+#footwear_boots_ad11 { grid-area: ad11; } #footwear_boots_ad12 { grid-area: ad12; }
+#footwear_boots_ad13 { grid-area: ad13; } #footwear_boots_ad14 { grid-area: ad14; }
+#footwear_boots_ad1, #footwear_boots_ad2, #footwear_boots_ad3, 
+#footwear_boots_ad4, #footwear_boots_ad5, #footwear_boots_ad6,
+#footwear_boots_ad7, #footwear_boots_ad8, #footwear_boots_ad9,
+#footwear_boots_ad10, #footwear_boots_ad11, #footwear_boots_ad12,
+#footwear_boots_ad13, #footwear_boots_ad14 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+#footwear_boots {
+    grid-template: repeat(9, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6"
+        "brdr2 brdr2 brdr2"
+        "ad7 ad8 ad9"
+        "brdr3 brdr3 brdr3"
+        "ad10 ad11 ad12"
+        "brdr4 brdr4 brdr4"
+        "ad13 ad14 ad15";
+}
+    
+/* Romeos */
+#footwear_romeos_ad1 { grid-area: ad1; }
+#footwear_romeos_ad2 { grid-area: ad2; }
+#footwear_romeos_ad3 { grid-area: ad3; }
+#footwear_romeos_ad1, #footwear_romeos_ad2, #footwear_romeos_ad3 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+#footwear_romeos {
+    grid-template: repeat(1, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3";
+}
+
+/* Shoe Care */
+#footwear_shoecare_ad1 { grid-area: ad1; } #footwear_shoecare_ad2 { grid-area: ad2; }
+#footwear_shoecare_ad3 { grid-area: ad3; } #footwear_shoecare_ad4 { grid-area: ad4; }
+#footwear_shoecare_ad5 { grid-area: ad5; } #footwear_shoecare_ad6 { grid-area: ad6; }
+#footwear_shoecare_ad7 { grid-area: ad7; } #footwear_shoecare_ad8 { grid-area: ad8; }
+#footwear_shoecare_ad9 { grid-area: ad9; } #footwear_shoecare_ad10 { grid-area: ad10; }
+#footwear_shoecare_ad11 { grid-area: ad11; }
+#footwear_shoecare_ad1, #footwear_shoecare_ad2, #footwear_shoecare_ad3, #footwear_shoecare_ad6,
+#footwear_shoecare_ad7, #footwear_shoecare_ad8, #footwear_shoecare_ad9, #footwear_shoecare_ad10,
+#footwear_shoecare_ad11 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+#footwear_shoecare_ad4, #footwear_shoecare_ad5 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "ad_price_properties"
+        "ad_price_properties";
+}
+#footwear_shoecare {
+    grid-template: repeat(7, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6"
+        "brdr2 brdr2 brdr2"
+        "ad7 ad8 ad9"
+        "brdr3 brdr3 brdr3"
+        "ad10 ad11 ad12";
+}
+
+/* Boot Accessories */
+#footwear_bootaccessories_ad1 { grid-area: ad1; }
+#footwear_bootaccessories_ad2 { grid-area: ad2; }
+#footwear_bootaccessories_ad1, #footwear_bootaccessories_ad2, #footwear_bootaccessories_ad3,
+#footwear_bootaccessories_ad4 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(3, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "product_description";
+}
+#footwear_bootaccessories {
+    grid-template: repeat(1, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3";
+}
+
+/* CLOTHING */
+
+/* Suspenders */
+#clothing_suspenders_ad1 { grid-area: ad1; } /*#clothing_suspenders_ad2 { grid-area: ad2; }
+#clothing_suspenders_ad3 { grid-area: ad3; } #clothing_suspenders_ad4 { grid-area: ad4; }
+#clothing_suspenders_ad5 { grid-area: ad5; } #clothing_suspenders_ad6 { grid-area: ad6; }
+#clothing_suspenders_ad7 { grid-area: ad7; } #clothing_suspenders_ad8 { grid-area: ad8; }
+#clothing_suspenders_ad9 { grid-area: ad9; } #clothing_suspenders_ad10 { grid-area: ad10; }
+#clothing_suspenders_ad11 { grid-area: ad11; } #clothing_suspenders_ad12 { grid-area: ad12; }
+#clothing_suspenders_ad13 { grid-area: ad13; } #clothing_suspenders_ad14 { grid-area: ad14; }
+#clothing_suspenders_ad15 { grid-area: ad15; } #clothing_suspenders_ad16 { grid-area: ad16; }
+#clothing_suspenders_ad17 { grid-area: ad17; } #clothing_suspenders_ad18 { grid-area: ad18; }
+#clothing_suspenders_ad19 { grid-area: ad19; } #clothing_suspenders_ad20 { grid-area: ad20; }*/
+#clothing_suspenders_ad1/*, #clothing_suspenders_ad2, #clothing_suspenders_ad3, #clothing_suspenders_ad4,
+#clothing_suspenders_ad5, #clothing_suspenders_ad6, #clothing_suspenders_ad7, #clothing_suspenders_ad8,
+#clothing_suspenders_ad9, #clothing_suspenders_ad10, #clothing_suspenders_ad11, #clothing_suspenders_ad12, 
+#clothing_suspenders_ad13, #clothing_suspenders_ad13, #clothing_suspenders_ad14, #clothing_suspenders_ad15,
+#clothing_suspenders_ad16, #clothing_suspenders_ad17, #clothing_suspenders_ad18, #clothing_suspenders_ad19,
+#clothing_suspenders_ad20*/ {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+#clothing_suspenders {
+    grid-template: repeat(1, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        /*"brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6"
+        "brdr2 brdr2 brdr2"
+        "ad7 ad8 ad9"
+        "brdr3 brdr3 brdr3"
+        "ad10 ad11 ad12"
+        "brdr4 brdr4 brdr4"
+        "ad13 ad14 ad15"
+        "brdr5 brdr5 brdr5"
+        "ad16 ad17 ad18"
+        "brdr6 brdr6 brdr6"
+        "ad19 ad20 ad21";*/
+}
+
+/* Gloves */
+#clothing_gloves_ad1 { grid-area: ad1; }
+#clothing_gloves_ad2 { grid-area: ad2; }
+#clothing_gloves_ad3 { grid-area: ad3; }
+#clothing_gloves_ad4 { grid-area: ad4; }
+#clothing_gloves_ad1, #clothing_gloves_ad2, #clothing_gloves_ad3,
+#clothing_gloves_ad4 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+#clothing_gloves {
+    grid-template: repeat(3, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6";
+}
+
+/* Rain Gear */
+#clothing_raingear_ad1 { grid-area: ad1; }
+#clothing_raingear_ad2 { grid-area: ad2; }
+#clothing_raingear_ad3 { grid-area: ad3; }
+#clothing_raingear_ad4 { grid-area: ad4; }
+#clothing_raingear_ad5 { grid-area: ad5; }
+#clothing_raingear_ad6 { grid-area: ad6; }
+#clothing_raingear_ad7 { grid-area: ad7; }
+#clothing_raingear_ad8 { grid-area: ad8; }
+#clothing_raingear_ad9 { grid-area: ad9; }
+#clothing_raingear_ad10 { grid-area: ad10; }
+#clothing_raingear_ad11 { grid-area: ad11; }
+#clothing_raingear_ad12 { grid-area: ad12; }
+#clothing_raingear_ad13 { grid-area: ad13; }
+#clothing_raingear_ad1, #clothing_raingear_ad2, #clothing_raingear_ad3,
+#clothing_raingear_ad4, #clothing_raingear_ad5, #clothing_raingear_ad6,
+#clothing_raingear_ad7, #clothing_raingear_ad8, #clothing_raingear_ad9,
+#clothing_raingear_ad10, #clothing_raingear_ad11, #clothing_raingear_ad12,
+#clothing_raingear_ad13 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+#clothing_raingear {
+    grid-template: repeat(8, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "msg msg msg"
+        "msgbrdr1 msgbrdr1 msgbrdr1"
+        "ad1 ad2 ad3"
+        "ad4 ad5 ad6"
+        "ad7 ad8 ad9"
+        "msg2 msg2 msg2"
+        "msgbrdr2 msgbrdr2 msgbrdr2"
+        "ad10 ad11 ad12"
+        "ad13 ad14 ad15";
+}
+
+/* Socks */
+#clothing_socks_ad1 { grid-area: ad1; } #clothing_socks_ad2 { grid-area: ad2; }
+#clothing_socks_ad3 { grid-area: ad3; } #clothing_socks_ad4 { grid-area: ad4; }
+#clothing_socks_ad5 { grid-area: ad5; } #clothing_socks_ad6 { grid-area: ad6; }
+#clothing_socks_ad1, #clothing_socks_ad2, #clothing_socks_ad3,
+#clothing_socks_ad4, #clothing_socks_ad5, #clothing_socks_ad6 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+#clothing_socks {
+    grid-template: repeat(3, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6";
+}
+
+/* Pants */
+#clothing_pants_ad1 { grid-area: ad1; } #clothing_pants_ad2 { grid-area: ad2; }
+#clothing_pants_ad3 { grid-area: ad3; } #clothing_pants_ad4 { grid-area: ad4; }
+#clothing_pants_ad5 { grid-area: ad5; } #clothing_pants_ad6 { grid-area: ad6; }
+#clothing_pants_ad7 { grid-area: ad7; } #clothing_pants_ad8 { grid-area: ad8; }
+#clothing_pants_ad9 { grid-area: ad9; } #clothing_pants_ad10 { grid-area: ad10; }
+#clothing_pants_ad11 { grid-area: ad11; } #clothing_pants_ad12 { grid-area: ad12; }
+#clothing_pants_ad13 { grid-area: ad13; } #clothing_pants_ad14 { grid-area: ad14; }
+#clothing_pants_ad15 { grid-area: ad15; } #clothing_pants_ad16 { grid-area: ad16; }
+#clothing_pants_ad17 { grid-area: ad17; }
+#clothing_pants_ad1, #clothing_pants_ad2, #clothing_pants_ad3, #clothing_pants_ad4,
+#clothing_pants_ad5, #clothing_pants_ad6, #clothing_pants_ad7, #clothing_pants_ad8,
+#clothing_pants_ad9, #clothing_pants_ad10, #clothing_pants_ad11, #clothing_pants_ad12,
+#clothing_pants_ad13, #clothing_pants_ad14, #clothing_pants_ad15, #clothing_pants_ad16,
+#clothing_pants_ad17 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+#clothing_pants {
+    grid-template: repeat(11, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6"
+        "brdr2 brdr2 brdr2"
+        "ad7 ad8 ad9"
+        "brdr3 brdr3 brdr3"
+        "ad10 ad11 ad12"
+        "brdr4 brdr4 brdr4"
+        "ad13 ad14 ad15"
+        "brdr5 brdr5 brdr5"
+        "ad16 ad17 ad18";
+}
+
+/* Predator */
+#clothing_predator_ad1 { grid-area: ad1; }
+#clothing_predator_ad2 { grid-area: ad2; }
+#clothing_predator_ad3 { grid-area: ad3; }
+#clothing_predator_ad4 { grid-area: ad4; }
+#clothing_predator_ad5 { grid-area: ad5; }
+#clothing_predator_ad6 { grid-area: ad6; }
+#clothing_predator_ad7 { grid-area: ad7; }
+#clothing_predator_ad8 { grid-area: ad8; }
+#clothing_predator_ad9 { grid-area: ad9; }
+#clothing_predator_ad10 { grid-area: ad10; }
+#clothing_predator_ad11 { grid-area: ad11; }
+#clothing_predator_ad12 { grid-area: ad12; }
+#clothing_predator_ad13 { grid-area: ad13; }
+#clothing_predator_ad1, #clothing_predator_ad2, #clothing_predator_ad3,
+#clothing_predator_ad4, #clothing_predator_ad5, #clothing_predator_ad6,
+#clothing_predator_ad7, #clothing_predator_ad8, #clothing_predator_ad9,
+#clothing_predator_ad10 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+#clothing_predator {
+    grid-template: repeat(7, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6"
+        "brdr2 brdr2 brdr2"
+        "ad7 ad8 ad9"
+        "brdr3 brdr3 brdr3"
+        "ad10 ad11 ad12";
+}
+
+/* Clothing Shirts */
+#clothing_shirts_ad1 { grid-area: ad1; } #clothing_shirts_ad2 { grid-area: ad2; }
+#clothing_shirts_ad3 { grid-area: ad3; } #clothing_shirts_ad4 { grid-area: ad4; }
+#clothing_shirts_ad5 { grid-area: ad5; } #clothing_shirts_ad6 { grid-area: ad6; }
+#clothing_shirts_ad7 { grid-area: ad7; } #clothing_shirts_ad8 { grid-area: ad8; }
+#clothing_shirts_ad9 { grid-area: ad9; } #clothing_shirts_ad10 { grid-area: ad10; }
+#clothing_shirts_ad1, #clothing_shirts_ad2, #clothing_shirts_ad3,
+#clothing_shirts_ad4, #clothing_shirts_ad5, #clothing_shirts_ad6,
+#clothing_shirts_ad7, #clothing_shirts_ad8, #clothing_shirts_ad9,
+#clothing_shirts_ad10 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+#clothing_shirts {
+    grid-template: repeat(7, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6"
+        "brdr2 brdr2 brdr2"
+        "ad7 ad8 ad9"
+        "brdr3 brdr3 brdr3"
+        "ad10 ad11 ad12";
+}
+
+/* BBQ Supplies */
+
+/* Pellets */
+#bbqsupplies_pellets_ad1 { grid-area: ad1; }
+#bbqsupplies_pellets_ad2 { grid-area: ad2; }
+#bbqsupplies_pellets_ad3 { grid-area: ad3; }
+#bbqsupplies_pellets_ad4 { grid-area: ad4; }
+#bbqsupplies_pellets_ad5 { grid-area: ad5; }
+#bbqsupplies_pellets_ad6 { grid-area: ad6; }
+#bbqsupplies_pellets_ad7 { grid-area: ad7; }
+#bbqsupplies_pellets_ad8 { grid-area: ad8; }
+#bbqsupplies_pellets_ad9 { grid-area: ad9; }
+#bbqsupplies_pellets_ad10 { grid-area: ad10; }
+#bbqsupplies_pellets_ad11 { grid-area: ad11; }
+#bbqsupplies_pellets_ad12 { grid-area: ad12; }
+#bbqsupplies_pellets_ad1, #bbqsupplies_pellets_ad2, #bbqsupplies_pellets_ad3,
+#bbqsupplies_pellets_ad4, #bbqsupplies_pellets_ad5, #bbqsupplies_pellets_ad6,
+#bbqsupplies_pellets_ad7, #bbqsupplies_pellets_ad8, #bbqsupplies_pellets_ad9,
+#bbqsupplies_pellets_ad10, #bbqsupplies_pellets_ad11, #bbqsupplies_pellets_ad12 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(3, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "product_description";
+}
+#bbqsupplies_pellets {
+    grid-template: repeat(7, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6"
+        "brdr2 brdr2 brdr2"
+        "ad7 ad8 ad9"
+        "brdr3 brdr3 brdr3"
+        "ad10 ad11 ad12";
+}
+
+/* Accessories */
+#bbqsupplies_accessories_ad1 { grid-area: ad1; }
+#bbqsupplies_accessories_ad2 { grid-area: ad2; }
+#bbqsupplies_accessories_ad1, #bbqsupplies_accessories_ad2, #bbqsupplies_accessories_ad3,
+#bbqsupplies_accessories_ad4 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(3, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "product_description";
+}
+#bbqsupplies_accessories {
+    grid-template: repeat(1, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3";
+}
+
+/* Sauces-Spices */
+#bbqsupplies_saucesspices_ad1 { grid-area: ad1; } #bbqsupplies_saucesspices_ad2 { grid-area: ad2; }
+#bbqsupplies_saucesspices_ad3 { grid-area: ad3; } #bbqsupplies_saucesspices_ad4 { grid-area: ad4; }
+#bbqsupplies_saucesspices_ad5 { grid-area: ad5; } #bbqsupplies_saucesspices_ad6 { grid-area: ad6; }
+#bbqsupplies_saucesspices_ad7 { grid-area: ad7; } #bbqsupplies_saucesspices_ad8 { grid-area: ad8; }
+#bbqsupplies_saucesspices_ad9 { grid-area: ad9; } #bbqsupplies_saucesspices_ad10 { grid-area: ad10; }
+#bbqsupplies_saucesspices_ad11 { grid-area: ad11; } #bbqsupplies_saucesspices_ad12 { grid-area: ad12; }
+#bbqsupplies_saucesspices_ad13 { grid-area: ad13; } #bbqsupplies_saucesspices_ad14 { grid-area: ad14; }
+#bbqsupplies_saucesspices_ad15 { grid-area: ad15; } #bbqsupplies_saucesspices_ad16 { grid-area: ad16; }
+#bbqsupplies_saucesspices_ad17 { grid-area: ad17; } #bbqsupplies_saucesspices_ad18 { grid-area: ad18; }
+#bbqsupplies_saucesspices_ad19 { grid-area: ad19; } #bbqsupplies_saucesspices_ad20 { grid-area: ad20; }
+#bbqsupplies_saucesspices_ad1, #bbqsupplies_saucesspices_ad2, #bbqsupplies_saucesspices_ad3,
+#bbqsupplies_saucesspices_ad4, #bbqsupplies_saucesspices_ad5, #bbqsupplies_saucesspices_ad6,
+#bbqsupplies_saucesspices_ad7, #bbqsupplies_saucesspices_ad8, #bbqsupplies_saucesspices_ad9,
+#bbqsupplies_saucesspices_ad10, #bbqsupplies_saucesspices_ad11, #bbqsupplies_saucesspices_ad12,
+#bbqsupplies_saucesspices_ad13, #bbqsupplies_saucesspices_ad14, #bbqsupplies_saucesspices_ad15,
+#bbqsupplies_saucesspices_ad16, #bbqsupplies_saucesspices_ad17, #bbqsupplies_saucesspices_ad18,
+#bbqsupplies_saucesspices_ad19, #bbqsupplies_saucesspices_ad20, #bbqsupplies_saucesspices_ad21 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(3, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "product_description";
+}
+#bbqsupplies_saucesspices {
+    grid-template: repeat(13, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6"
+        "brdr2 brdr2 brdr2"
+        "ad7 ad8 ad9"
+        "brdr3 brdr3 brdr3"
+        "ad10 ad11 ad12"
+        "brdr4 brdr4 brdr4"
+        "ad13 ad14 ad15"
+        "brdr5 brdr5 brdr5"
+        "ad16 ad17 ad18"
+        "brdr6 brdr6 brdr6"
+        "ad19 ad20 ad21";
+}
+
+/* STOVE */
+/* Gaskets-Glue */
+#stove_gasketsglue_ad1 { grid-area: ad1; }
+#stove_gasketsglue_ad2 { grid-area: ad2; }
+#stove_gasketsglue_ad1, #stove_gasketsglue_ad2 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(3, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "product_description";
+}
+#stove_gasketsglue {
+    grid-template: repeat(1, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3";
+}
+
+/* Pellet Starter */
+#stove_pelletstarter_ad1 { grid-area: ad1; } #stove_pelletstarter_ad2 { grid-area: ad2; }
+#stove_pelletstarter_ad3 { grid-area: ad3; } #stove_pelletstarter_ad4 { grid-area: ad4; }
+#stove_pelletstarter_ad1, #stove_pelletstarter_ad2, #stove_pelletstarter_ad3,
+#stove_pelletstarter_ad4 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(3, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "product_description";
+}
+#stove_pelletstarter {
+    grid-template: repeat(1, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3";
+}
+
+/* Pellet Fuel */
+#stove_pelletfuel_ad1 { grid-area: ad1; }
+#stove_pelletfuel_ad2 { grid-area: ad2; }
+#stove_pelletfuel_ad1, #stove_pelletfuel_ad2 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "product_description";
+}
+#stove_pelletfuel {
+    grid-template: repeat(1, auto) / repeat(2, 1fr);
+    grid-template-areas:
+        "ad1 ad2";
+}
+
+/* Fire brick */
+#stove_firebrick_ad1 { grid-area: ad1; }
+#stove_firebrick_ad1 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+#stove_firebrick {
+    grid-template: repeat(1, auto) / 1fr;
+    width: 75%;
+    grid-template-areas:
+        "ad1";
+}
+
+/* OUTDOOR */
+/* Boat Safety */
+#outdoor_boatsafety_ad1 { grid-area: ad1; } #outdoor_boatsafety_ad2 { grid-area: ad2; }
+#outdoor_boatsafety_ad3 { grid-area: ad3; } #outdoor_boatsafety_ad4 { grid-area: ad4; }
+#outdoor_boatsafety_ad5 { grid-area: ad5; } #outdoor_boatsafety_ad6 { grid-area: ad6; }
+#outdoor_boatsafety_ad7 { grid-area: ad7; } #outdoor_boatsafety_ad8 { grid-area: ad8; }
+#outdoor_boatsafety_ad9 { grid-area: ad9; } #outdoor_boatsafety_ad10 { grid-area: ad10; }
+#outdoor_boatsafety_ad1, #outdoor_boatsafety_ad2, #outdoor_boatsafety_ad3, 
+#outdoor_boatsafety_ad4, #outdoor_boatsafety_ad5, #outdoor_boatsafety_ad6, 
+#outdoor_boatsafety_ad7, #outdoor_boatsafety_ad8, #outdoor_boatsafety_ad9,
+#outdoor_boatsafety_ad10 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(5, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_brand"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+#outdoor_boatsafety {
+    grid-template: repeat(7, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6"
+        "brdr2 brdr2 brdr2"
+        "ad7 ad8 ad9"
+        "brdr3 brdr3 brdr3"
+        "ad10 ad11 ad12";
+}
+
+/* Floaties-Towables */
+#outdoor_floatiestowables_ad1 { grid-area: ad1; } #outdoor_floatiestowables_ad2 { grid-area: ad2; }
+#outdoor_floatiestowables_ad3 { grid-area: ad3; } #outdoor_floatiestowables_ad4 { grid-area: ad4; }
+#outdoor_floatiestowables_ad5 { grid-area: ad5; } #outdoor_floatiestowables_ad6 { grid-area: ad6; }
+#outdoor_floatiestowables_ad7 { grid-area: ad7; } #outdoor_floatiestowables_ad8 { grid-area: ad8; }
+#outdoor_floatiestowables_ad9 { grid-area: ad9; } #outdoor_floatiestowables_ad10 { grid-area: ad10; }
+#outdoor_floatiestowables_ad11 { grid-area: ad11; } #outdoor_floatiestowables_ad12 { grid-area: ad12; }
+#outdoor_floatiestowables_ad13 { grid-area: ad13; } #outdoor_floatiestowables_ad14 { grid-area: ad14; }
+#outdoor_floatiestowables_ad15 { grid-area: ad15; } 
+/* Airhead */
+#outdoor_floatiestowables_ad16 { grid-area: ad16; } #outdoor_floatiestowables_ad17 { grid-area: ad17; }
+#outdoor_floatiestowables_ad18 { grid-area: ad18; } #outdoor_floatiestowables_ad19 { grid-area: ad19; }
+#outdoor_floatiestowables_ad20 { grid-area: ad20; } #outdoor_floatiestowables_ad21 { grid-area: ad21; }
+#outdoor_floatiestowables_ad22 { grid-area: ad22; } #outdoor_floatiestowables_ad23 { grid-area: ad23; }
+#outdoor_floatiestowables_ad24 { grid-area: ad24; } #outdoor_floatiestowables_ad25 { grid-area: ad25; }
+#outdoor_floatiestowables_ad26 { grid-area: ad26; }
+#outdoor_floatiestowables_ad1, #outdoor_floatiestowables_ad2, #outdoor_floatiestowables_ad3,
+#outdoor_floatiestowables_ad4, #outdoor_floatiestowables_ad5, #outdoor_floatiestowables_ad6,
+#outdoor_floatiestowables_ad7, #outdoor_floatiestowables_ad8, #outdoor_floatiestowables_ad9,
+#outdoor_floatiestowables_ad10, #outdoor_floatiestowables_ad11, #outdoor_floatiestowables_ad12,
+#outdoor_floatiestowables_ad13, #outdoor_floatiestowables_ad14, #outdoor_floatiestowables_ad15 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_brand"
+        "product_image"
+        "product_description";
+}
+
+#outdoor_floatiestowables_ad16, #outdoor_floatiestowables_ad17, #outdoor_floatiestowables_ad18,
+#outdoor_floatiestowables_ad19, #outdoor_floatiestowables_ad20, #outdoor_floatiestowables_ad21,
+#outdoor_floatiestowables_ad22, #outdoor_floatiestowables_ad23, #outdoor_floatiestowables_ad24,
+#outdoor_floatiestowables_ad25 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+
+#outdoor_floatiestowables {
+    grid-template: repeat(14, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "msg msg msg"
+        "msgbrdr1 msgbrdr1 msgbrdr1"
+        "ad1 ad2 ad3"
+        "ad4 ad5 ad6"
+        "ad7 ad8 ad9"
+        "ad10 ad11 ad12"
+        "ad13 ad14 ad15"
+        "msg2 msg2 msg2"
+        "msgbrdr2 msgbrdr2 msgbrdr2"
+        "ad16 ad17 ad18"
+        "ad19 ad20 ad21"
+        "ad22 ad23 ad24"
+        "ad25 ad26 ad27"
+        "msg3 msg3 msg3";
+}
+
+/* Tecnu Cleanser */
+#outdoor_tecnucleanser_ad1 { grid-area: ad1; } #outdoor_tecnucleanser_ad2 { grid-area: ad2; }
+#outdoor_tecnucleanser_ad3 { grid-area: ad3; } #outdoor_tecnucleanser_ad4 { grid-area: ad4; }
+#outdoor_tecnucleanser_ad1, #outdoor_tecnucleanser_ad2, #outdoor_tecnucleanser_ad3,
+#outdoor_tecnucleanser_ad4 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(4, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+#outdoor_tecnucleanser {
+    grid-template: repeat(3, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6";
+}
+
+/* Hydroflask */
+#outdoor_hydroflask_ad1 { grid-area: ad1; } #outdoor_hydroflask_ad2 { grid-area: ad2; }
+#outdoor_hydroflask_ad3 { grid-area: ad3; } #outdoor_hydroflask_ad4 { grid-area: ad4; }
+#outdoor_hydroflask_ad5 { grid-area: ad5; } #outdoor_hydroflask_ad6 { grid-area: ad6; }
+#outdoor_hydroflask_ad7 { grid-area: ad7; } #outdoor_hydroflask_ad8 { grid-area: ad8; }
+#outdoor_hydroflask_ad9 { grid-area: ad9; } #outdoor_hydroflask_ad10 { grid-area: ad10; }
+#outdoor_hydroflask_ad11 { grid-area: ad11; } #outdoor_hydroflask_ad12 { grid-area: ad12; }
+#outdoor_hydroflask_ad13 { grid-area: ad13; } #outdoor_hydroflask_ad14 { grid-area: ad14; }
+#outdoor_hydroflask_ad15 { grid-area: ad15; } #outdoor_hydroflask_ad16 { grid-area: ad16; }
+#outdoor_hydroflask_ad17 { grid-area: ad17; } #outdoor_hydroflask_ad18 { grid-area: ad18; }
+#outdoor_hydroflask_ad19 { grid-area: ad19; } #outdoor_hydroflask_ad20 { grid-area: ad20; }
+#outdoor_hydroflask_ad21 { grid-area: ad21; }
+#outdoor_hydroflask_ad1, #outdoor_hydroflask_ad2, #outdoor_hydroflask_ad3, #outdoor_hydroflask_ad4,
+#outdoor_hydroflask_ad5, #outdoor_hydroflask_ad6, #outdoor_hydroflask_ad7, #outdoor_hydroflask_ad8,
+#outdoor_hydroflask_ad9, #outdoor_hydroflask_ad10, #outdoor_hydroflask_ad11, #outdoor_hydroflask_ad12,
+#outdoor_hydroflask_ad13, #outdoor_hydroflask_ad14, #outdoor_hydroflask_ad15, #outdoor_hydroflask_ad16,
+#outdoor_hydroflask_ad17, #outdoor_hydroflask_ad18, #outdoor_hydroflask_ad19, #outdoor_hydroflask_ad20,
+#outdoor_hydroflask_ad21 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(3, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "product_description";
+}
+#outdoor_hydroflask {
+    grid-template: repeat(13, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 ad5 ad6"
+        "brdr2 brdr2 brdr2"
+        "ad7 ad8 ad9"
+        "brdr3 brdr3 brdr3"
+        "ad10 ad11 ad12"
+        "brdr4 brdr4 brdr4"
+        "ad13 ad14 ad15"
+        "brdr5 brdr5 brdr5"
+        "ad16 ad17 ad18"
+        "brdr6 brdr6 brdr6"
+        "ad19 ad20 ad21";
+}
+
+/* Animal Bedding */
+#outdoor_animalbedding_ad1 { grid-area: ad1; }
+#outdoor_animalbedding_ad2 { grid-area: ad2; }
+#outdoor_animalbedding_ad3 { grid-area: ad3; }
+#outdoor_animalbedding_ad1, #outdoor_animalbedding_ad2, #outdoor_animalbedding_ad3 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(3, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "list_desc"
+        "ad_price_properties";
+}
+#outdoor_animalbedding {
+    grid-template: repeat(1, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3";
+}
+
+/* Redneck Decor */
+#outdoor_redneckdecor_ad1 { grid-area: ad1; }
+#outdoor_redneckdecor_ad2 { grid-area: ad2; }
+#outdoor_redneckdecor_ad3 { grid-area: ad3; }
+#outdoor_redneckdecor_ad4 { grid-area: ad4; }
+#outdoor_redneckdecor_ad5 { grid-area: ad5; }
+#outdoor_redneckdecor_ad6 { grid-area: ad6; }
+#outdoor_redneckdecor_ad7 { grid-area: ad7; }
+#outdoor_redneckdecor_ad1, #outdoor_redneckdecor_ad2, #outdoor_redneckdecor_ad3,
+#outdoor_redneckdecor_ad4, #outdoor_redneckdecor_ad5, #outdoor_redneckdecor_ad6,
+#outdoor_redneckdecor_ad7 {
+    display: grid;
+    margin: 1em 3% 0 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+    grid-template: repeat(2, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image";
+}
+#outdoor_redneckdecor {
+    grid-template: repeat(5, auto) / repeat(3, 1fr);
+    grid-template-areas:
+        "ad1 ad2 ad3"
+        "brdr1 brdr1 brdr1"
+        "ad4 . ad5"
+        "brdr2 brdr2 brdr2"
+        "ad6 . ad7";
+}
+
+/* TACKLE */
+#tackle_main {
+    grid-area: main;
+    width: 100%;
+    display: grid;
+    grid-template: auto auto / minmax(200px, auto) 1fr;
+    grid-template-areas: 
+        "location location"
+        "main_content main_content";
+}
+
+#tackle_content {
+    grid-area: main_content;
+    display: grid;
+    margin-bottom: 2em;
+    width: 90%;
+    justify-self: center;
+    grid-template: repeat(3, auto) / 1fr 1fr;
+    grid-template-areas: 
+        "h1_heading h1_heading"
+        "under-construction under-construction"
+        "main_section main_section";
+}
+
+#tackle_content h1 { 
+    grid-area: h1_heading; 
+    margin: 0;
+    font-size: 250%;
+    padding-bottom: .5em;
+    text-align: center;
+}
+
+#tackle_ad1 { grid-area: ad1; } #tackle_ad2 { grid-area: ad2; }
+#tackle_ad3 { grid-area: ad3; } #tackle_ad4 { grid-area: ad4; }
+#tackle_ad5 { grid-area: ad5; } #tackle_ad6 { grid-area: ad6; }
+#tackle_ad7 { grid-area: ad7; } #tackle_ad8 { grid-area: ad8; }
+#tackle_ad9 { grid-area: ad9; } #tackle_ad10 { grid-area: ad10; }
+#tackle_ad11 { grid-area: ad11; }
+#tackle_ad1, #tackle_ad2, #tackle_ad3, #tackle_ad4, #tackle_ad5,
+#tackle_ad6, #tackle_ad7, #tackle_ad8, #tackle_ad9, #tackle_ad10,
+#tackle_ad11 {
+    display: grid;
+    width: 100%;
+    grid-template: repeat(3, auto) / auto;
+    grid-template-areas:
+        "product_title"
+        "product_image"
+        "tackle_list";
+}
+
+.tackle_list ul { 
+    list-style-type: none; 
+    line-height: 1.5; 
+    font-weight: bold;
+    font-size: 130%;
+}
+.tackle_list {
+    grid-area: tackle_list;
+    width: 80%;
+    padding: .3em 2%;
+    justify-self: center;
+    text-align: center;
+    margin-top: 1em;
+    column-count: 2;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+#tackle_ad1 h2, #tackle_ad2 h2, #tackle_ad3 h2, #tackle_ad4 h2,
+#tackle_ad5 h2, #tackle_ad6 h2 { font-size: 170%; }
+
+#tackle .msg { margin-top: 1.5em; }
+
+#tackle { 
+    grid-area: main_section; 
+    display: grid;
+    background-color: beige;
+    width: 90%;
+    border-radius: 20px;
+    border: 2px solid black;
+    justify-self: center;
+    margin-top: 1.5em;
+    padding: .5em 2% 2em 2%;
+    grid-row-gap: 1.5em;
+    grid-template: repeat(12, auto) / 1fr 1fr;
+    grid-template-areas:
+        "ad1 ad2"
+        "brdr1 brdr1"
+        "ad3 ad4"
+        "brdr2 brdr2"
+        "ad5 ad6"
+        "brdr3 brdr3"
+        "ad7 ad8"
+        "brdr4 brdr4"
+        "ad9 ad10"
+        "brdr5 brdr5"
+        "ad11 ad12"
+        "msg msg";
+}

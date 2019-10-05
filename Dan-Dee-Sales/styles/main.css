@@ -1,0 +1,175 @@
+/* Main Styles */
+#home_page {
+    grid-area: main;
+    width: 100%;
+    display: grid;
+    grid-template: repeat(3, auto) / 1fr;
+    grid-row-gap: 2em;
+    grid-template-areas: 
+        "top_section"
+        "middle_section"
+        "bottom_section";
+    background-color: #608341;
+}
+#TOP {
+    grid-area: top_section;
+    display: grid;
+    width: 100%;
+    grid-template: auto / repeat(3, 1fr);
+    grid-template-areas: 
+        "top_left top_middle top_right";
+}
+#top_left { grid-area: top_left; border-radius: 20px;}
+#top_middle { grid-area: top_middle; border-radius: 20px; }
+#top_right { grid-area: top_right; border-radius: 20px; }
+#top_left, #top_middle, #top_right {
+    background-color: beige;   /* #d2b48c */
+    margin-top: 1.5em;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-bottom: .8em;
+    border: 2px solid black;
+    display: grid;
+    grid-template: repeat(5, auto) / auto;
+    grid-template-areas:
+        "product_name"
+        "image"
+        "product_description"
+        "product_description2"
+        "view_button"
+}
+#top_left h2, #top_middle h2, #top_right h2 {
+    grid-area: product_name;
+    font-size: 195%;
+    text-align: center;
+    padding-top: .55em;
+    padding-bottom: .3em;
+}
+#top_left img, #top_middle img, #top_right img {
+    grid-area: image;
+    max-width: 100%;
+    justify-self: center;
+    max-height: 210px;
+    margin: 0 2% .5em 2%;
+}
+#top_left section, #top_middle section, #top_right section {
+    grid-area: product_description;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+#top_left_button, #top_middle_button, #top_right_button {
+    grid-area: view_button;
+    padding: 0 1.5em;
+    justify-self: center;
+    align-self: flex-end;
+    font-weight: bold;
+}
+#top_left_button:hover, #top_left_button:focus,
+#top_middle_button:hover, #top_middle_button:focus,
+#top_right_button:hover, #top_right_button:focus { 
+    cursor: pointer;
+}
+#MIDDLE {
+    grid-area: middle_section;
+    width: 100%;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template: auto / 1fr 1fr;
+    grid-template-areas:
+        "middle_left_ad middle_right_ad";
+}
+#middle_left_ad { grid-area: middle_left_ad; margin-left: 12%; margin-right: 6%; }
+#middle_right_ad { grid-area: middle_right_ad; margin-right: 12%; margin-left: 6%; }
+#middle_left_ad, #middle_right_ad {
+    background-color: beige; /* #d2b48c */
+    padding: .5em 2% .2em 2%;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: grid;
+    justify-content: center;
+    grid-template: repeat(4, auto) / 1fr;
+    grid-template-areas:
+        "ad_heading"
+        "ad_image"
+        "ad_description"
+        "ad_button";
+}
+
+#middle_left_ad h2, #middle_right_ad h2 {
+    grid-area: ad_heading;
+    font-size: 220%;
+    text-align: center;
+    padding-top: .25em;
+    padding-bottom: .5em;
+}
+
+#middle_left_ad section, #middle_right_ad section {
+    grid-area: ad_description;
+    padding-top: 1.5em;
+    padding-left: 2%;
+    align-self: center;
+    padding-right: 2%;
+}
+
+#middle_left_ad img, #middle_right_ad img {
+    grid-area: ad_image;
+    justify-self: center;
+    align-self: center;
+    max-width: 100%;
+    max-height: 250px;
+}
+
+#middle_left_ad_button, #middle_right_ad_button {
+    grid-area: ad_button;
+    justify-self: center;
+    align-self: flex-end;
+    padding-top: .5em;
+}
+#BOTTOM {
+    grid-area: bottom_section;
+    width: 80%;
+    margin-bottom: 2.5em; 
+    justify-self: center;
+    display: grid;
+    grid-row-gap: 2em;
+    grid-template: auto auto / 1fr;
+    grid-template-areas:
+        "bottom_top_ad"
+        "bottom_bottom_ad";
+}
+#bottom_top_ad { grid-area: bottom_top_ad; }
+#bottom_bottom_ad { grid-area: bottom_bottom_ad; }
+#bottom_top_ad, #bottom_bottom_ad {
+    display: grid;
+    background-color: beige;
+    border-radius: 20px;
+    padding: 1em 3% 1em 2%;
+    border: 2px solid black;
+    grid-template: auto auto / 1fr 1fr;
+    grid-template-areas:
+        "image product_content"
+        "image button";
+}
+#bottom_top_content, #bottom_bottom_content {
+    grid-area: product_content;
+    padding-left: 3%;
+    padding-right: 2%;
+}
+#bottom_top_content h2, #bottom_bottom_content h2 {
+    text-align: center;
+    font-size: 230%;
+    padding-bottom: 1em;
+}
+#bottom_top_image, #bottom_bottom_image {
+    grid-area: image;
+    max-width: 100%;
+    padding-bottom: .5em;
+    justify-self: center;
+    align-self: center;
+    max-height: 220px;
+}
+.BOTTOM_button {
+    grid-area: button;
+    justify-self: center;
+    align-self: flex-end;
+}
